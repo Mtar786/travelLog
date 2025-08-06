@@ -23,24 +23,6 @@ A full-stack Travel Log App built with the **MERN stack** (MongoDB, Express.js, 
 
 ---
 
-## 📁 Project Structure
-
-travel-log-app/
-├── backend/
-│ ├── models/
-│ ├── routes/
-│ ├── config/
-│ └── server.js
-├── frontend/
-│ ├── src/
-│ │ ├── pages/
-│ │ ├── components/
-│ │ └── context/
-└── README.md
-
-yaml
-Copy
-Edit
 
 ---
 
@@ -52,17 +34,13 @@ Edit
 git clone https://github.com/yourusername/travel-log-app.git
 cd travel-log-app
 2. Backend Setup
-bash
-Copy
-Edit
+
 cd backend
 cp .env.example .env   # Add your MongoDB URI and JWT secret
 npm install
 npm run dev            # Starts server on http://localhost:5000
 3. Frontend Setup
-bash
-Copy
-Edit
+
 cd ../frontend
 cp .env.example .env   # Set REACT_APP_API_URL=http://localhost:5000
 npm install
@@ -70,15 +48,13 @@ npm start              # Opens app on http://localhost:3000
 🛠 Environment Variables
 .env (Backend)
 env
-Copy
-Edit
+
 MONGO_URI=mongodb://localhost:27017/travel_log_app
 JWT_SECRET=your_jwt_secret_here
 PORT=5000
 .env (Frontend)
 env
-Copy
-Edit
+
 REACT_APP_API_URL=http://localhost:5000
 🖼 Screenshots
 Add screenshots here if desired.
