@@ -1,5 +1,6 @@
 # 🌍 Travel Log App
 
+
 A full-stack Travel Log App built with the **MERN stack** (MongoDB, Express.js, React.js, Node.js). Users can register, log in, and keep a personal log of their travel experiences with titles, descriptions, dates, locations, and optional image links.
 
 ---
